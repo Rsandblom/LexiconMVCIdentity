@@ -14,8 +14,6 @@ namespace LexiconMVCData.Models
         [PersonalData]
         public string LastName { get; set; }
         [PersonalData]
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime BirthDate { get; set; }
 
     }
